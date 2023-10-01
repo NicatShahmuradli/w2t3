@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "OpenSans-medium";
+  src: url(../fonts/static/OpenSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-bold";
+  src: url(../fonts/static/OpenSans-Bold.ttf);
+}
+
+body {
+  background-color: rgb(255, 242, 194);
+}
+
+.card .image {
+  width: 200px;
+  height: 200px;
+  border-style: dashed;
+  border-radius: 50%;
+  margin: 15px auto;
+  overflow: hidden;
+  border-color: brown;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+}
+
+header div h1 {
+  font-family: "OpenSans-medium";
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid brown;
+  color: black;
+  margin: 0px 250px;
+}
+
+main section div h2 {
+  color: rgb(173, 35, 19);
+  margin: 8px 250px;
+}
+
+main section div p {
+  font-family: "OpenSans-bold";
+  color: black;
+  margin: auto 250px;
+}
