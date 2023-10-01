@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3c7faf;
+}
+
+.main-box {
+  left: calc(50% - 200px);
+  bottom: calc(50% - 300px);
+  width: 400px;
+  height: 600px;
+  position: absolute;
+}
+
+.main-box .caret_down {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  right: calc(50% - 20px);
+  bottom: 11%;
+}
+
+.main-box .content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+}
+
+.content .button {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+}
+
+.content .button button {
+  background-color: white;
+  border-style: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #3c7faf;
+  font-weight: 700;
+
+  left: 0;
+  top: 0;
+}
+
+.content .image {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  border-radius: 25px;
+  background: gray;
+  padding: 9px;
+}
+
+.content .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.content .image .about {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  border-radius: 25px;
+}
+
+.image .about .details {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 15px;
+}
+
+.details .name,
+.details .jobs {
+  font-family: Poppins;
+  font-size: 17px;
+  color: white;
+}
+
+.details .icons i {
+  font-size: 20px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid white;
+  line-height: 35px;
+  margin: 5px 5px;
+}
+
+.details .name {
+  font-size: 20px;
+}
