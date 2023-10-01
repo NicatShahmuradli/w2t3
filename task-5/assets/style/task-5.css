@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+nav {
+  background-color: rgb(71, 171, 228);
+  color: white;
+  padding: 20px 30px;
+}
+
+.second-title {
+  font-size: 15px;
+}
+
+.quote {
+  background-color: rgb(76, 220, 76);
+  border: 4px solid green;
+  border-radius: 10px;
+  margin: 25px 30%;
+  padding: 25px 30px;
+  width: auto;
+  font-size: 18px;
+}
+
+.owner {
+  font-style: italic;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.click_here {
+  background-color: rgb(224, 62, 62);
+  border: 4px solid red;
+  border-radius: 30px;
+  height: auto;
+  margin: 0px 40% 10px;
+  padding: 10px 0px 25px 0;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.click_here a {
+  color: white;
+  font-size: 25px;
+}
+
+.click_here h4 {
+  margin: 15px 0px 15px 0px;
+}
+
+.content_area {
+  font-size: 15px;
+  background-color: rgb(100, 100, 148);
+  color: white;
+  padding: 30px 30px;
+}
+
+.content_area h1,
+p {
+  padding: 0px 10px 5px;
+}
+
+footer {
+  background-color: rgb(30, 18, 68);
+  color: rgb(12, 171, 246);
+  font-size: 15px;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+footer a {
+  color: rgb(12, 171, 246);
+  width: auto;
+  padding: 10px;
+  text-decoration: none;
+}
